@@ -1,3 +1,12 @@
 .rounded-circle{
     border-radius: 50%;
 }
+
+.fancy-background{
+    transform: rotate(-2deg);
+    filter: drop-shadow(7px 10px 0px rgba(0,0,0,10%));
+}
+
+.revert-rotate{
+    transform: rotate(2deg);
+}
